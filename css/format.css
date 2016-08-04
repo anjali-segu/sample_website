@@ -1,0 +1,47 @@
+h1 {
+  color: red;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+p {
+  color: blue;
+}
+
+.other {
+  color: green;
+  font-size: 20px;
+}
+
+
+#header {
+  color: purple;
+}
+
+.header {
+  color: yellow;
+}
+
+.main {
+  background-color: gray;
+  margin: 40px;
+  padding: 10px;
+}
+
+.side {
+  background-color: black;
+}
+
+.main > * {
+  margin: 0px;
+  padding: 10px;
+}
+
+
+
+/*
+css selector {
+  attribute: value;
+  attribute2: value2;
+}
+*/
